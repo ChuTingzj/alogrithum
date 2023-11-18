@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CPP_MODULE" version="4">
+  <component name="Go" enabled="true" />
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Sort/Bubble Sort/rust/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sort/Selection Sort/rust/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sort/Insertion Sort/rust/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sort/Merge Sort/rust/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/Sort/Bubble Sort/rust/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Sort/Bubble Sort/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Sort/Selection Sort/rust/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Sort/Insertion Sort/rust/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Sort/Merge Sort/rust/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

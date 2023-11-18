@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/Sort/Bubble Sort/rust" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Sort/Insertion Sort/rust" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Sort/Merge Sort/rust" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Sort/Selection Sort/rust" vcs="Git" />
+  </component>
+</project>
