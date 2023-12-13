@@ -15,5 +15,7 @@ func bubbleSort[T []int](arr T) T {
 
 func main() {
 	arr := []int{29, 10, 14, 37, 14}
+	start := time.Now()
 	fmt.Println(bubbleSort(arr))
+	t := time.Now()
 }

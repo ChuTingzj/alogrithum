@@ -12,4 +12,8 @@ const BubbleSort = <T extends number>(arr: TValuable<T>) => {
     }
     return arr
 }
+
+const flag = performance.now()
+//0.003
 console.log(BubbleSort([29, 10, 14, 37, 14]))
+console.warn((performance.now()-flag)/1000)
