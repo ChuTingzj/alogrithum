@@ -9,6 +9,29 @@ impl Solution {
                 }
             }
         }
-        nums1.copy_from_slice(&merge_vec[..])
+        nums1.copy_from_slice(&merge_vec[..]);
+    }
+    pub fn merge_double_pointer(nums1: &mut Vec<i32>, m: i32, nums2: &mut Vec<i32>, n: i32) {
+        let mut left_pointer = m - 1;
+        let mut right_pointer = n - 1;
+        let mut tail_pointer = m + n - 1;
+        let mut temp = 0;
+        while left_pointer >= 0 || right_pointer >= 0 {
+            if left_pointer == -1 {
+                temp = nums2[right_pointer as usize];
+                right_pointer -= 1
+            } else if right_pointer == -1 {
+                temp = nums1[left_pointer as usize];
+                left_pointer -= 1
+            } else if nums1[left_pointer as usize] > nums2[right_pointer as usize] {
+                temp = nums1[left_pointer as usize];
+                left_pointer -= 1;
+            } else {
+                temp = nums2[right_pointer as usize];
+                right_pointer -= 1;
+            }
+            nums1[tail_pointer as usize] = temp;
+            tail_pointer -= 1
+        }
     }
 }
